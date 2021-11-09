@@ -1,0 +1,24 @@
+{
+	"name": "ds_procesed_cases",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_covidreportinglakestorag",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "ecdc/cases_deaths",
+				"fileSystem": "procesed"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

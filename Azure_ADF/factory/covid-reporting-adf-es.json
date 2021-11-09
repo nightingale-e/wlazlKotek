@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adf-es",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38af1aef-5972-4a4c-b7ea-7318448f4204",
+		"tenantId": "a61a21b5-4da4-4aa0-818b-64a35713b878"
+	}
+}
